@@ -1,7 +1,9 @@
 import React from "react";
 
-export default props =>
+const jogadores = (props) =>
 <div>
     {props.nome}
     <strong>{props.numero}</strong>
 </div>
+
+export default jogadores
