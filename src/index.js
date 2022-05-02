@@ -9,7 +9,7 @@ import ComponenteClasse from "./components/ComponenteClasse";
 
 const elemento = document.getElementById('root');
 ReactDOM.render(
-  <ComponenteClasse />
+  <ComponenteClasse valor="Que massa!"/>
   // <ComponenteFuncao />
   // <Time />
   // <div>
