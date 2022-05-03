@@ -6,7 +6,7 @@ export default class ComponenteClasse extends Component {
     render(){
         return (
             <h1>
-                {this.props.valor}
+                {this.props.valor || "Valor Default"}
             </h1>
 
         )
